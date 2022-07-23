@@ -2,7 +2,7 @@
 
 ## What is this script?
 
-This is a simple MAC address changer created for Linux systems. 
+This is a simple MAC address changer created for Linux systems. The code is fully commented for educational purposes.
 
 ## How to use?
 

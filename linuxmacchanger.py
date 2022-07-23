@@ -28,9 +28,8 @@ from time import sleep
 # Regex pattern to validate the MAC address
 valid_mac_pattern = "^(?:[0-9A-Fa-f]{2}[:-]){5}(?:[0-9A-Fa-f]{2})$"
 
+
 # Function to check if the user has runned the script as sudo or root
-
-
 def check_privileges():
     if not os.environ.get("SUDO_UID") and os.geteuid() != 0:
         print("You need to run this script with sudo or as root.")

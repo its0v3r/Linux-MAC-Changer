@@ -11,7 +11,9 @@ There is one .py file with the code fully commented (for educational purposes) a
 
 ## How to use the script?
 
-The user can chose which interface he wants to change the MAC address (-i, --interface) and then provide the desired MAC address (-m, --mac). Still, the user has the option to use a random generated MAC address provided by the script (-r, --random). If the user don't pass any arguments, the script will ask for the user to input the peding information. The script needs to be run with sudo or as root.
+The user can chose which interface he wants to change the MAC address (-i, --interface) and then provide the desired MAC address (-m, --mac). Still, the user has the option to use a random generated MAC address provided by the script (-r, --random). If the user don't pass any arguments, the script will ask for the user to input the peding information.
+This script needs to run as sudo or root, otherwise the user will get an error.
+This code is meant to work with Python3.
 
 
 Example 1 - Specifing the interface and the MAC address: 

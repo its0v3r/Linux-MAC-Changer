@@ -1,4 +1,4 @@
-# Python Linux MAC Changer 1.0.0
+# Linux MAC Changer 1.0.0
 
 ## What is this script?
 
